@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+body {
+  background-color: #055170;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div, article, header {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 2em;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: rgb(47, 147, 255);
+  color: #ffffff;
+  border-radius: 0 0 10px 10px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 80%;
+  display: inline-block;
+}
+
+.profile {
+  margin: 20px;
+  display: inline-block;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.desc, .contact {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: left;
+}
+
+.desc h2, .contact h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.desc p, .contact p {
+  font-size: 18px;
+  text-align: left;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #007BFF;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.fa {
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: #833AB4;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+}
+.fa-github {
+  background: #171515;
+  color: white;
+}
+.fa-linkedin {
+  background: #007BB5;
+  color: white;
+}
